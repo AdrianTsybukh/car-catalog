@@ -7,9 +7,18 @@ function App() {
       <div>
         <div>
           <div className={styles.item}>
-            <h2>Car 1</h2>
-            <p>100 000$</p>
-            <button>Read more</button>
+            <div
+              className={styles.image}
+              style={{
+                backgroundImage: 'url(/bmw-x7.jpg)',
+              }}
+            />
+
+            <div className={styles.info}>
+              <h2>Car 1</h2>
+              <p>100 000$</p>
+              <button>Read more</button>
+            </div>
           </div>
         </div>
       </div>
